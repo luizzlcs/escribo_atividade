@@ -1,6 +1,6 @@
 <h1 align="center">Teste Técnico 01</h1>
 
-<p align="center">Esse projeto foi desenvolvido como parte de uma etapa para Seleção de Desenvolvedor de Software. O código possue uma função que recebe um número inteiro positivo e retorna o somatório de todos os valores inteiros divisíveis por 3 ou 5 que sejam inferiores ao número passado.</p>
+<p align="center">Esse projeto foi desenvolvido como parte de uma etapa para Seleção de Desenvolvedor de Software. O código possui uma função que recebe um número inteiro positivo e retorna o somatório de todos os valores inteiros divisíveis por 3 ou 5 que sejam inferiores ao número passado.</p>
 
 <h1 aling= "center">
 <img alt "Readme" title "Readme" src="./github/Readme-gif.gif"/>
