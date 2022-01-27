@@ -2,21 +2,31 @@ import 'dart:math';
 import 'dart:io';
 
 main() {
-  print(
-      "Escolha uma opção: \n [1] Inserir um número. \n [2] Número aleatório.");
-  String opcao = stdin.readLineSync()!;
+  bool selecao = false;
 
-  switch (opcao) {
-    case '1':
-      print('Agora é sua vez, digite um valor:');
-      String inserir = stdin.readLineSync()!;
-      var converte = int.parse(inserir);
-      sortearNumero(converte);
-      break;
+  while (selecao == false) {
+    print(
+        "Escolha uma opção: \n [1] Inserir um número. \n [2] Número aleatório.");
+    String opcao = stdin.readLineSync()!;
 
-    case '2':
-      int sorteado = Random().nextInt(100);
-      sortearNumero(sorteado);
+    switch (opcao) {
+      case '1':
+        print('Agora é sua vez, digite um valor:');
+        String inserir = stdin.readLineSync()!;
+        var converte = int.parse(inserir);
+        sortearNumero(converte);
+        selecao = true;
+        break;
+
+      case '2':
+        int sorteado = Random().nextInt(100);
+        sortearNumero(sorteado);
+        selecao = true;
+        break;
+
+      default:
+        print('-------- DIGITE APENAS 1 ou 2 -----------');
+    }
   }
 }
 
