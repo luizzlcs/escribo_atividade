@@ -3,12 +3,13 @@
 <p align="center">Esse projeto foi desenvolvido como parte de uma etapa para Seleção de Desenvolvedor de Software. O código possui uma função que recebe um número inteiro positivo e retorna o somatório de todos os valores inteiros divisíveis por 3 ou 5 que sejam inferiores ao número passado.</p>
 
 <p align="center">
-<img width="460" height="300" src="assets/escribo.gif>
+<img width="460" height="300" src="assets/escribo.gif"/>
+
 
 </p>
 
 
-### Pré-requisitos
+## Pré-requisitos
 
 
 Antes de começar, você vai precisar instalar em sua máquina as seguintes ferramentas:
