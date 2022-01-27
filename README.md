@@ -5,10 +5,11 @@
 <p align="center">
 <img width="460" height="300" src="assets/escribo.gif">
 
-</p
+</p>
 
-  
+
 ### Pré-requisitos
+
 
 Antes de começar, você vai precisar instalar em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com) ou utilizar outros meios para fazer o clone do repositório, [Dart.Dev](https://dart.dev/) Nela haverá instruções para a instalação de todas as versões do Dart. Numa parte da tela estará escrito <ins><em>"Install the Dart SDK"</em></ins>. Este será o kit de desenvolvimento de software do Dart.
@@ -22,7 +23,7 @@ $ git clone <git@github.com:luizzlcs/escribo_atividade.git>
 
 # Acesse  a pasta do projeto no terminal/cmd
 $ cd escribo_atividade
-- Após acessar o dirtório digite no prompt de comando dart main.dart
+$ Após acessar o dirtório digite no prompt de comando dart main.dart
 ````
 ---
 ### Autor
